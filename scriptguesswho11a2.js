@@ -8,6 +8,7 @@ function fyourcharacter(){
         document.getElementById("yourcharacterId").style.opacity="1";
         actionVar="chosen";
         document.getElementById("title1").innerHTML='<p class="Montserrat" style="opacity: 2; margin-top: 20px;"></p>';
+        chosenVar=0;
     }
 }
 function fremovecharacter(){
