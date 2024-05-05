@@ -1,4 +1,4 @@
-@media screen and (min-device-width: 300px) and (max-device-width: 768px){
+@media screen and (min-device-width: 300px) and (max-device-width: 699px){
     .adaptive{
         margin-top: 200px;
     }
@@ -43,7 +43,7 @@
     }
 }
 
-@media screen and (min-device-width: 769px) and (max-device-width: 2000px){
+@media screen and (min-device-width: 700px) and (max-device-width: 2000px){
     .adaptive{
         margin-top: 100px;
     }
@@ -63,7 +63,7 @@
     }
     .adaptive1{
         width: 200px;
-        height: 520px;
+        height: 240px;
         float: left;
     }
     .adaptive2{
