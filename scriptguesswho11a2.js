@@ -1,8 +1,13 @@
+document.getElementById("title1").innerHTML='<p class="Montserrat" style="opacity: 1; margin-top: 20px;">Choose your character</p>';
+document.getElementById("title2").innerHTML='<p class="Montserrat" style="opacity: 1; margin-top: 20px;">Start removing</p>';
+
 var actionVar = "chooseyourcharacter";
 var chosenVar = 0;
-var state=[1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1]
-document.getElementById("title1").innerHTML='<p class="Montserrat" style="opacity: 2; margin-top: 20px;">Choose your character</p>';
-document.getElementById("title2").innerHTML='<p class="Montserrat" style="opacity: 2; margin-top: 20px;">Start removing</p>';
+var iVar = 0;
+var state=[];
+for (let i=0; i<43; i++){
+    state[i]=1;}
+
 function fyourcharacter(){
     if (chosenVar>0){
         document.getElementById("yourcharacterId").style.opacity="1";
@@ -11,6 +16,7 @@ function fyourcharacter(){
         chosenVar=0;
     }
 }
+
 function fremovecharacter(){
     if (actionVar=="chosen"){
         actionVar="removecharacter";
@@ -18,8 +24,6 @@ function fremovecharacter(){
         document.getElementById("removeId").style.opacity="0";
     }
 }
-
-var iVar = 0;
 
 function fbox(){
     if (actionVar=="chooseyourcharacter"){
@@ -55,4 +59,4 @@ function fbox1(){
             state[iVar-1]=1;
         }
     }
-} 
+}
