@@ -5,7 +5,7 @@ var actionVar = "chooseyourcharacter";
 var chosenVar = 0;
 var iVar = 0;
 var state=[];
-for (let i=0; i<43; i++){
+for (let i=0; i<50; i++){
     state[i]=1;}
 
 function fyourcharacter(){
